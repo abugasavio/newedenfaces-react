@@ -9,7 +9,6 @@ class App extends React.Component {
         return (
           <div>
             <Navbar history={this.props.history} />
-            <AddCharacter />
             {this.props.children}   
             <Footer />
           </div>  
